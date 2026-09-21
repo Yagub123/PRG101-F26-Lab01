@@ -13,5 +13,9 @@
 # Create another variable called "stock"
 # The value of "stock" should also be a decimal number of your own choice.
 # Print the product of `quantity` and `stock` with 4 spaces before the answer using the module % formatting.
-# Then print the product of `quantity` and `stock` with 7 spaces before the answer and make sure the answer only goes to hundreadths (-.--) using the module % formatting.
+# Then print the product of `quantity` and `stock` with 7 spaces before the answer and make sure the answer only goes to hundreadths (-.--) using the module % formatting
+quantity=12.5
+stock=4.75
+print("%4s"%(quantity * stock))
+print("%7.2f"%)(quantity * stock))
 
